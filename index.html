@@ -1,9 +1,199 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="title" content="HTML Heading Demo with Table | SEO & Mobile Friendly" />
+  <meta name="description" content="Fully responsive HTML website using h1 to h6, paragraphs, images, and a sample table. Designed with SEO meta tags and mobile-first approach." />
+  <meta name="keywords" content="HTML Headings, SEO HTML Template, Responsive HTML Website, h1 to h6 example, HTML table example" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Satish SEO" />
+  <meta name="language" content="English" />
+
+  <!-- Open Graph Meta for Social Media -->
+  <meta property="og:title" content="HTML Heading Demo with Table" />
+  <meta property="og:description" content="Responsive HTML template showing headings, images, paragraphs, and a table. SEO-ready structure." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://via.placeholder.com/800x400" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://via.placeholder.com/32" type="image/png" />
+
+  <title>Heading Demo Website with Table</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #007acc;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #007acc;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #007acc;
+    }
+
+    /* Mobile Optimization */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+
+      table, th, td {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <!-- Header -->
+  <header>
+    <p>HTML Demo: Headings, Images, Paragraphs & Table</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <section>
+      <h1>This is Heading H1</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dapibus magna.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Image for H1">
+    </section>
+
+    <section>
+      <h2>This is Heading H2</h2>
+      <p>Aliquam erat volutpat. Aenean ut nisl et tortor malesuada dapibus non vel justo.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Image for H2">
+    </section>
+
+    <section>
+      <h3>This is Heading H3</h3>
+      <p>Sed cursus massa at nulla tincidunt, at laoreet nunc elementum.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Image for H3">
+    </section>
+
+    <section>
+      <h4>This is Heading H4</h4>
+      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Image for H4">
+    </section>
+
+    <section>
+      <h5>This is Heading H5</h5>
+      <p>Phasellus finibus tellus eget lectus consequat, at volutpat nunc suscipit.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Image for H5">
+    </section>
+
+    <section>
+      <h6>This is Heading H6</h6>
+      <p>Curabitur fermentum eros ac sapien viverra, sed hendrerit mauris tincidunt.</p>
+      <img src="https://via.placeholder.com/800x400" alt="Image for H6">
+    </section>
+
+    <!-- Table Section -->
+    <section>
+      <h2>Sample Data Table</h2>
+      <p>Below is a sample HTML table with basic data:</p>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>City</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Rahul</td>
+          <td>Delhi</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Neha</td>
+          <td>Mumbai</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Amit</td>
+          <td>Kolkata</td>
+        </tr>
+      </table>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Heading Demo Website. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
